@@ -1,0 +1,12 @@
+[package]
+name = "Flappy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bracket-lib = "~0.8.7"
+
+
+[[example]]
+name = "FlappyExt"
+path = "example/FlappyExt.rs"
